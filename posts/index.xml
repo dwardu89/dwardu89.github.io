@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edward Vella</title>
+    <link>http://www.dwardu.com/posts/</link>
+    <description>Recent content on Edward Vella</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="http://www.dwardu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

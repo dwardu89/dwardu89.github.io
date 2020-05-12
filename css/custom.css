@@ -1,0 +1,85 @@
+/* At the top level of your code */
+@media screen and (min-width: 400px) {
+  figure.imgproc {
+    padding: 0.25rem; 
+    float: right;
+  }
+}
+
+figure.imgproc {
+  padding: 0.25rem;
+}
+
+div.row {
+  display: table-row;
+  text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+  div.row > div {
+    display: table-cell;
+    padding-bottom: 25px;
+    margin: auto;
+    text-align: left;
+  }
+
+}
+
+div.row > div {
+  vertical-align: middle;
+  padding-bottom: 25px;
+}
+
+div > p {
+  
+}
+
+div.contact-form {
+  margin: 0.25rem;
+}
+
+form > label {
+  display: block;
+}
+
+form > input {
+  display: block;
+  width: 100%;
+  resize: none;
+}
+
+form > textarea {
+  outline: none;
+  width: 100%;
+  resize: none;
+}
+
+form > input[type="submit"] {   
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 40px;
+}
+
+@media screen and (min-width: 400px) {
+  div.skills {
+    display: table-cell;
+    padding-bottom: 25px;
+  }
+}
+
+div.skills {
+  text-align: center;
+  width: auto;
+}
+
+div.skills > h3{
+  text-align: middle;
+}
+
+div.skills > ul{
+  text-align: middle;
+}
