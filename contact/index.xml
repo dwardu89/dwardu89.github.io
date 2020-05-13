@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on Edward Vella</title>
-    <link>https://dwardu89.github.io/contact/</link>
+    <link>https://www.dwardu.com/contact/</link>
     <description>Recent content in Contact on Edward Vella</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://dwardu89.github.io/contact/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.dwardu.com/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
