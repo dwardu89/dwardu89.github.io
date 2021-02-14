@@ -1,0 +1,25 @@
+
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+{{ $command := .Get 1 }}
+{{ $options := .Get 2 }}
+{{ $figureClass := .Get 3 }}
+{{ if eq $command "Fit"}}
+{{ .Scratch.Set "image" ($original.Fit $options) }}
+{{ else if eq $command "Resize"}}
+{{ .Scratch.Set "image" ($original.Resize $options) }}
+{{ else if eq $command "Fill"}}
+{{ .Scratch.Set "image" ($original.Fill $options) }}
+{{ else }}
+
+{{ end }}
+{{ $image := .Scratch.Get "image" }}
+<div class="row">
+	<div class="col">
+		<p>
+			{{ .Inner  | markdownify }}
+		</p>
+	</div>
+	<div class="col" style="min-width: {{ $image.Width }}px !important;">
+		<img style=" width: auto; height: auto;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+	</div> 
+</div>

@@ -1,0 +1,10 @@
+{{ $title := .Get 0 }}
+{{ $items := split (.Get 1) "," }}
+<div class="skills">
+<h3>{{ $title }}</h3>
+<ul>
+    {{ range $items }}
+    <li>{{ . }}</li>
+    {{ end }}
+</ul>
+</div>
