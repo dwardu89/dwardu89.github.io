@@ -22,6 +22,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
+          extended: true
 
       # Step 3 - Clean and don't fail
       - name: Clean public directory
@@ -30,7 +31,7 @@ jobs:
       # Step 4 - Builds the site using the latest version of Hugo
       # Also specifies the theme we want to use
       - name: Build
-        run: hugo --theme=hugo-coder
+        run: hugo --theme=hugo-coder --minify
 
       # Step 5 - Create name file
       - name: Create cname file
