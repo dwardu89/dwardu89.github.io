@@ -26,8 +26,8 @@ These are the tools that I work with on a day to day basis as well as have worke
 <div style="display: table; width: 100%;">
 <div style="display: table-row;">
 {{< /rawhtml >}}
-{{< column-list "Cloud Technologies" "Amazon Web Services, Google Cloud Platform">}}
-{{< column-list "Tools" "Terraform,Kubernetes,Jenkins,Vault,Nomad,Consul">}}
+{{< column-list "Cloud Technologies" "Amazon Web Services, Google Cloud Platform, Snowflake">}}
+{{< column-list "Tools" "Terraform,Kubernetes,Jenkins,Vault,Airflow,Nomad,Consul">}}
 {{< column-list "Programming Languages" "Python, Go, Java, C#">}}
 {{< rawhtml >}}
 </div>
